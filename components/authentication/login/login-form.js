@@ -2,7 +2,7 @@ import Link from "next/link";
 
 function LoginForm() {
   return (
-    <div className="card rounded-5 w-75">
+    <div className="card rounded-5 mx-0">
       <div className="card-body">
         <h1 className="card-title mt-4 text-center">Jaring Aspirasi</h1>
         <h1 className="card-title text-center">Respon Cepat</h1>

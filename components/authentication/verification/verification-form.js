@@ -8,7 +8,7 @@ function VerificationForm() {
         <h1 className="card-title mt-4 text-center">Verifikasi</h1>
         <p className="text-center">Kode OTP telah dikirimkan ke email anda</p>
         <form>
-          <div className="row w-75 mx-auto">
+          <div className="row mx-auto">
             <div className="col-md-12">
               <div className="mb-3 d-flex justify-content-evenly">
                 <InputOtp />
@@ -20,8 +20,8 @@ function VerificationForm() {
             <div className="col-md-12">
               <div className="mb-3">
                 <div className="d-flex justify-content-between">
-                  <p>Belum menerima kode?</p>
-                  <a className="">Kirim kode kembali</a>
+                  <p className="fs-6 text-nowrap">Belum menerima kode?</p>
+                  <a className="fs-6 text-nowrap">Kirim kode kembali</a>
                 </div>
               </div>
             </div>

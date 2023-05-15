@@ -1,12 +1,12 @@
 import Link from "next/link";
 function RegisterForm() {
   return (
-    <div className="card rounded-5 w-75">
+    <div className="card rounded-5 ">
       <div className="card-body">
         <h1 className="card-title mt-4 text-center fw-bold">Daftar</h1>
         <form>
-          <div className="row w-75 mx-auto">
-            <div className="col-md-12">
+          <div className="row mt-4 mx-auto">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Foto KTP (optional)
@@ -18,7 +18,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Foto Diri
@@ -30,7 +30,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   NIK
@@ -42,7 +42,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Nama Lengkap
@@ -54,7 +54,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Tempat Tinggal
@@ -66,7 +66,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Tanggal Lahir
@@ -78,18 +78,18 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Jenis Kelamin
                 </label>
-                <select class="form-select">
+                <select className="form-select">
                   <option value="male">Laki - Laki</option>
                   <option value="female">Perempuan</option>
                 </select>
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Nomor Ponsel Aktif
@@ -101,7 +101,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Pekerjaan/Jabatan/Organisasi
@@ -113,7 +113,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Username
@@ -125,7 +125,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Email
@@ -137,7 +137,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Password
@@ -149,7 +149,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <label htmlFor="txt-input-name" className="form-label">
                   Password Confirmation
@@ -161,7 +161,7 @@ function RegisterForm() {
                 />
               </div>
             </div>
-            <div className="col-md-12">
+            <div className="col-md-12 col-lg-8 mx-auto">
               <div className="mb-3">
                 <div className="d-grid">
                   <Link

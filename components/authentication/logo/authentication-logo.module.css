@@ -1,5 +1,17 @@
-.heading {
-  font-size: 80pt;
-  width: 100%;
-  font-weight: bolder;
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 50pt;
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+  .heading {
+    font-size: 80pt;
+    width: 100%;
+    font-weight: bolder;
+  }
 }
